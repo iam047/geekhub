@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body {
+    font-family: Lato, Light, sans-serif;
+    font-size: 12px;
+}
+
+body > header {
+    background: url("../images/Organic2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1%;
+    height: calc(100vh - 20px);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.nav-primary {
+    display: flex;
+    margin-left: 16%;
+    justify-content: center;
+}
+
+.color {
+    color: white;
+
+}
+
+.but {
+    background: orange;
+    border: white;
+}
+
+.but2 {
+    background: #ffd084;
+    border: white;
+}
+
+.caret {
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.nav-item {
+    font-weight: 500;
+    line-height: 60px;
+    margin: 0 47px 0 auto;
+}
+
+.nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.q {
+    top: -20px;
+    font-style: italic;
+    color: orange;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+q {
+    display: inline;
+}
+
+q:before {
+    content: open-quote;
+    font-size: 24px;
+}
+
+q:after {
+    content: close-quote;
+    font-size: 24px;
+}
+
+.line {
+    margin: 40px;
+    border-left: 1px solid gainsboro;
+}
+
+.space {
+    margin-left: 20px;
+}
+
+.textPrev  {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 12px;
+    line-height: 2;
+}
+
+.container {
+    margin-top: 40px;
+    overflow: hidden;
+    display: flex;
+    color: gainsboro;
+}
+
+.consulting-rev {
+    width: 350px;
+    margin: 0 21%;
+}
+
+.consulting-rev h2 {
+    font-variant: normal;
+    color: #ffffff;
+    font-size: 44px;
+    margin-top: 117px;
+    margin-bottom: 30px;
+}
+
+.consulting-rev p {
+    content: normal;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.text {
+    font-size: 20px;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+.p {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.8;
+    color: gray;
+    padding-right: 300px;
+}
+
+.consulting-rev a {
+    margin: 20px auto;
+    display: block;
+    width: 120px;
+    height: 25px;
+    background: #090821;
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main > header h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #090821;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.consulting {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 0;
+    position: relative;
+}
+
+.space_Q {
+    padding-top: 10px;
+    padding-left: 310px;
+    padding-right: 20px;
+}
+
+.buttons {
+    padding: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.text-italic {
+    width: 190px;
+}
+
+footer {
+    height: 280px;
+    background: #d77474;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ffffff;
+}
+
+footer h2 {
+    color: #ffffff;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.st {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+}
+
+.block {
+    margin-top: 23%;
+    width: 100%;
+    height: 30px;
+    -webkit-clip-path: polygon(0 27%, 0% 100%, 77% 100%);
+    clip-path: polygon(0 27%, 0% 100%, 77% 100%);
+    background-color: white;
+    osition: absolute;
+    top: 0;
+}
+
+.asd {
+    position: relative;
+}
+
+.footer1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffffff;
+    margin-left: 5%;
+}
+
+.asdda {
+    padding: 0px 0px 0px 70px;
+}
+
+.info-text {
+    margin-top: 30px;
+}
